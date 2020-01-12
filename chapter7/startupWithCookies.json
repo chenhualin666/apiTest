@@ -1,5 +1,18 @@
 [
   {
+    "description": "this is a get request return cookies",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "get cookies successfully"
+    }
+  },
+  {
     "description": "this is a get request with cookies",
     "request": {
       "uri": "/get/with/cookies",
@@ -21,16 +34,9 @@
         "login": "true"
       }
     },
-    "json": {
-      "name": "grace",
-      "age": "18"
-    },
     "response": {
       "status": 200,
-      "json": {
-        "chl": "success",
-        "status": "1"
-      }
+      "text": "connect success"
     }
   }
 ]
