@@ -1,0 +1,26 @@
+[
+  {
+    "description":"this is a get request with no paras",
+    "request":{
+      "uri":"/getDemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"this is a get request with no paras"
+    }
+  },
+  {
+    "description":"this is get request with paras",
+    "request":{
+      "uri":"/getWithParas",
+      "method":"get",
+      "queries":{
+        "name": "zhangsan",
+        "age": "20"
+      }
+    },
+    "response":{
+      "text":"this is a request with paras"
+    }
+  }
+]

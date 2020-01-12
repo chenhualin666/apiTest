@@ -1,0 +1,26 @@
+[
+  {
+    "description": "this is post request with no paras",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "this is my first mock post request"
+    }
+  },
+  {
+    "description": "this is a post request with paras",
+    "request": {
+      "uri": "/postWithParas",
+      "method": "post",
+      "forms": {
+        "name": "zhangsan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "this is a post request with paras"
+    }
+  }
+]
